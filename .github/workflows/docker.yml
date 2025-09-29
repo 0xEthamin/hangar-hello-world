@@ -27,4 +27,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/hello-world-nginx:latest
+          tags: ghcr.io/0xethamin/hello-world-nginx:latest
